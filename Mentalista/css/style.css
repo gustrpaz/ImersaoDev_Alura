@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-image: url(../assets/background.jpg);
+}
+
+.title {
+    width: 100%;
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h1 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+
+    color: #FFFFFF;
+}
+
+main {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-content {
+    height: 100%;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(10, 0, 0, 0.44);
+    border: 4px solid #FB3611;
+    border-radius: 30px;
+}
+
+.picapau {
+    display: flex;
+    width: 250px;
+    height: 368px;
+}
+
+.container-input {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box-input {
+    width: 100%;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-input h2 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.box-input input {
+    width: 147px;
+    height: 45px;
+    padding: 1rem;
+    border-style: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    background: #D9D9D9;
+    border: 4px solid #FB3611;
+    border-radius: 30px
+}
+
+.box-input button {
+    width: 147px;
+    height: 45px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #282828;
+
+    border-style: none;
+    background: #FFEA31;
+    border-radius: 30px;
+}
+
+.box-input button:hover {
+    scale: 1.05;
+    transition: all .3s ease-in-out;
+    color: #FFEA31;
+    background: #282828;
+}
+
+.AreaResponse {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.AreaResponse span {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 207px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+.container-footer {
+    display: flex;
+    height: 8em;
+    width: 40em;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: brown; */
+
+}
+
+.container-footer span {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.box-footer {
+    width: 7.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.github {
+    width: 40px;
+    height: 38px;
+}
+
+.box-footer a {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+    text-decoration: none;
+}

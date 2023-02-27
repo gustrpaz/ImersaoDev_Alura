@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+
+    <title>Aluraflix</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="title">
+            <h1>Aluraflix</h1>
+        </div>
+        <main>
+
+            <div class="box-input">
+                <div class="input-container">
+                    <label for="text">Insira o nome do filme</label>
+                    <input id="filmName" type="text" placeholder="Ex: Avatar"></input>
+                </div>
+                <div class="input-container">
+
+                    <label for="text">Insira a url da capa do filme</label>
+                    <input id="urlImage" type="text" placeholder="Url da imagem"></input>
+                </div>
+
+                <div class="input-container">
+
+                    <label for="text">Insira a url do trailer</label>
+                    <input id="urlTrailer" type="text" placeholder="Url do trailer"></input>
+                </div>
+
+                <div class="box-btn">
+
+                    <button onclick="insertMovie()"> Enviar</button>
+                </div>
+            </div>
+
+            <section id="moviesArea" class="movies"></section>
+        </main>
+    </div>
+</body>
+
+    <footer>
+        <div class="container-footer">
+            <span>Developed by: Gustavo Rezende Paz</span>
+            <div class="box-footer">
+                <img class='github' src="./assets/GitHub.svg" alt="">
+
+                <a href="https://github.com/gustrpaz">gustrpaz</a>
+            </div>
+        </div>
+
+    </footer>
+
+
+</html>
