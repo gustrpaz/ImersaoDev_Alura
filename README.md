@@ -1,6 +1,6 @@
 <img src="https://imersao.dev/assets/img/logo-imersao-dev6-desktop.1674580904.png"></img>
 # 6º ImersaoDev Alura 2023
-## Exercícios da 6º Imersão dev proporcionada pela Alura
+## Exercícios da 6º ImersãoDev proporcionada pela Alura
 ### Conversor de Moedas
 <img src="https://i.imgur.com/WuZE4oT.png"></img>
 
