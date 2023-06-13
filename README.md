@@ -2,6 +2,7 @@
 # 6º ImersaoDev Alura 2023 - <img style="width:2em; height:2em;" src="https://pbs.twimg.com/profile_images/1597421774676828165/m-BUQtop_400x400.jpg"></img>
 
 ## Exercícios da 6º ImersãoDev proporcionada pela Alura
+<br>
 ### Conversor de Moedas
 <img src="https://i.imgur.com/WuZE4oT.png"></img>
 
